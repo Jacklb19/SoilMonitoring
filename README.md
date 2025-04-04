@@ -90,14 +90,16 @@ spring.jpa.show-sql=true
 | PUT    |  http://localhost:8080/suelos/{id}    | Actualiza completamente un registro.                                       |
 | PATCH  |  http://localhost:8080/suelos/{id}    | Actualiza parcialmente un registro.                                        |
 | DELETE |  http://localhost:8080/suelos/{id}    | Elimina un registro.                                                       |
-| Atributos a modificar |     "ubication": "Zona  NOrte XXXXXXXXXXXX",
+
+Atributos a modificar:
+    "ubication": "Zona  NOrte XXXXXXXXXXXX",
     "ph": 1.0,
     "moisture": 10,
     "nitrogen": 50,
     "phosphorus": 40,
     "potassium": 35,
     "organicMatter": 2,
-    "contaminantLevel": 40                                                 |
+    "contaminantLevel": 40                                             |
 
 
 
