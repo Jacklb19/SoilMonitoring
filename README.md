@@ -91,7 +91,7 @@ spring.jpa.show-sql=true
 | PATCH  |  http://localhost:8080/suelos/{id}    | Actualiza parcialmente un registro.                                        |
 | DELETE |  http://localhost:8080/suelos/{id}    | Elimina un registro.                                                       |
 
-Atributos a modificar:
+```Atributos a modificar:
     "ubication": "Zona  NOrte XXXXXXXXXXXX",
     "ph": 1.0,
     "moisture": 10,
