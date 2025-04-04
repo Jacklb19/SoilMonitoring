@@ -8,8 +8,8 @@ Además, se aplica el **patrón de diseño Decorator** para extender la funciona
 
 ## 🚀 Tecnologías Utilizadas
 
-- ☕ **Java** 17 / 21  
-- 🌱 **Spring Boot** 3.x  
+- ☕ **Java** 21  
+- 🌱 **Spring Boot** 3.4.4
 - 📦 **Spring Data JPA**  
 - 🐘 **PostgreSQL** (en Docker)  
 - 🧰 **Maven**  
@@ -30,6 +30,14 @@ Además, se aplica el **patrón de diseño Decorator** para extender la funciona
 
 - **Servicio**: Interfaz `SoilService` y su implementación `SoilServiceImpl`.
 - **Decorador**: `MetricsDecorator` para medir el rendimiento de los métodos CRUD.
+
+### ▶️ Ejecución
+
+Inicia la aplicación desde la clase:
+
+```java
+SoilMonitoringApplication
+```
 
 ### 🛠️ Infraestructura
 
@@ -90,13 +98,5 @@ spring.jpa.show-sql=true
 | PUT    | `/soils/{id}`    | Actualiza completamente un registro.                                       |
 | PATCH  | `/soils/{id}`    | Actualiza parcialmente un registro.                                        |
 | DELETE | `/soils/{id}`    | Elimina un registro.                                                       |
-
-```
-### ▶️ Ejecución
-
-Inicia la aplicación desde la clase:
-
-```java
-SoilMonitoringApplication
 
 
