@@ -28,6 +28,8 @@ public class Soil {
     // clasificaion de suelo
     private String classification;
 
+    private String managementRecommendation;
+
     public  Long getId(){
         return id;
     }
@@ -102,5 +104,13 @@ public class Soil {
 
     public void setClassification(String classification) {
         this.classification = classification;
+    }
+
+    public String getManagementRecommendation() {
+        return managementRecommendation;
+    }
+
+    public void setManagementRecommendation(String managementRecommendation) {
+        this.managementRecommendation = managementRecommendation;
     }
 }

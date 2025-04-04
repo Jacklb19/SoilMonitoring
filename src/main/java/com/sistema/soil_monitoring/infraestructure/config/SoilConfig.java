@@ -20,8 +20,9 @@ public class SoilConfig {
         service = new NutrientContentValidatorDecorator(service);
         service = new OrganicMatterValidatorDecorator(service);
         service = new ContaminantValidatorDecorator(service);
-        service = new MetricsMonitoringDecorator(service);
         service = new SoilClassificationDecorator(service);
+        service = new SoilManagementRecommendationDecorator(service);
+        service = new MetricsMonitoringDecorator(service);
         return service;
 
     }
