@@ -87,9 +87,6 @@ spring.jpa.show-sql=true
 
 ### 📡 Endpoints
 
-```markdown
-### 📡 Endpoints
-
 | Método | Endpoint        | Descripción                                                                 |
 |--------|------------------|-----------------------------------------------------------------------------|
 | POST   |  http://localhost:8080/suelos         | Crea un nuevo registro. `classification` y `managementRecommendation` se generan automáticamente. |
@@ -98,5 +95,6 @@ spring.jpa.show-sql=true
 | PUT    |  http://localhost:8080/suelos/{id}    | Actualiza completamente un registro.                                       |
 | PATCH  |  http://localhost:8080/suelos/{id}    | Actualiza parcialmente un registro.                                        |
 | DELETE |  http://localhost:8080/suelos/{id}    | Elimina un registro.                                                       |
+
 
 
