@@ -8,8 +8,8 @@ Además, se aplica el **patrón de diseño Decorator** para extender la funciona
 
 ## 🚀 Tecnologías Utilizadas
 
-- ☕ **Java** 17 / 21  
-- 🌱 **Spring Boot** 3.x  
+- ☕ **Java** 21  
+- 🌱 **Spring Boot** 3.4.4
 - 📦 **Spring Data JPA**  
 - 🐘 **PostgreSQL** (en Docker)  
 - 🧰 **Maven**  
@@ -30,6 +30,14 @@ Además, se aplica el **patrón de diseño Decorator** para extender la funciona
 
 - **Servicio**: Interfaz `SoilService` y su implementación `SoilServiceImpl`.
 - **Decorador**: `MetricsDecorator` para medir el rendimiento de los métodos CRUD.
+
+### ▶️ Ejecución
+
+Inicia la aplicación desde la clase:
+
+```java
+SoilMonitoringApplication
+```
 
 ### 🛠️ Infraestructura
 
@@ -79,24 +87,14 @@ spring.jpa.show-sql=true
 
 ### 📡 Endpoints
 
-```markdown
-### 📡 Endpoints
-
 | Método | Endpoint        | Descripción                                                                 |
 |--------|------------------|-----------------------------------------------------------------------------|
-| POST   | `/soils`         | Crea un nuevo registro. `classification` y `managementRecommendation` se generan automáticamente. |
-| GET    | `/soils`         | Lista todos los registros.                                                 |
-| GET    | `/soils/{id}`    | Obtiene un registro específico.                                            |
-| PUT    | `/soils/{id}`    | Actualiza completamente un registro.                                       |
-| PATCH  | `/soils/{id}`    | Actualiza parcialmente un registro.                                        |
-| DELETE | `/soils/{id}`    | Elimina un registro.                                                       |
+| POST   |  http://localhost:8080/suelos         | Crea un nuevo registro. `classification` y `managementRecommendation` se generan automáticamente. |
+| GET    |  http://localhost:8080/suelos         | Lista todos los registros.                                                 |
+| GET    |  http://localhost:8080/suelos/{id}    | Obtiene un registro específico.                                            |
+| PUT    |  http://localhost:8080/suelos/{id}    | Actualiza completamente un registro.                                       |
+| PATCH  |  http://localhost:8080/suelos/{id}    | Actualiza parcialmente un registro.                                        |
+| DELETE |  http://localhost:8080/suelos/{id}    | Elimina un registro.                                                       |
 
-```
-### ▶️ Ejecución
-
-Inicia la aplicación desde la clase:
-
-```java
-SoilMonitoringApplication
 
 
