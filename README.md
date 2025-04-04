@@ -92,11 +92,11 @@ spring.jpa.show-sql=true
 
 | Método | Endpoint        | Descripción                                                                 |
 |--------|------------------|-----------------------------------------------------------------------------|
-| POST   | `/soils`         | Crea un nuevo registro. `classification` y `managementRecommendation` se generan automáticamente. |
-| GET    | `/soils`         | Lista todos los registros.                                                 |
-| GET    | `/soils/{id}`    | Obtiene un registro específico.                                            |
-| PUT    | `/soils/{id}`    | Actualiza completamente un registro.                                       |
-| PATCH  | `/soils/{id}`    | Actualiza parcialmente un registro.                                        |
-| DELETE | `/soils/{id}`    | Elimina un registro.                                                       |
+| POST   | ` http://localhost:8080/suelos`         | Crea un nuevo registro. `classification` y `managementRecommendation` se generan automáticamente. |
+| GET    | ` http://localhost:8080/suelos`         | Lista todos los registros.                                                 |
+| GET    | ` http://localhost:8080/suelos/{id}`    | Obtiene un registro específico.                                            |
+| PUT    | ` http://localhost:8080/suelos/{id}`    | Actualiza completamente un registro.                                       |
+| PATCH  | ` http://localhost:8080/suelos/{id}`    | Actualiza parcialmente un registro.                                        |
+| DELETE | ` http://localhost:8080/suelos/{id}`    | Elimina un registro.                                                       |
 
 
