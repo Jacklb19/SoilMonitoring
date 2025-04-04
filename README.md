@@ -60,12 +60,7 @@ SoilMonitoringApplication
 Ejecuta este comando para iniciar el contenedor PostgreSQL:
 
 ```bash
-docker run --name postgres-suelos \
-  -e POSTGRES_USER=admin \
-  -e POSTGRES_PASSWORD=admin \
-  -e POSTGRES_DB=suelos \
-  -p 5432:5432 \
-  -d postgres
+docker run --name suelos -e POSTGRES_PASSWORD=admin -e POSTGRES_USER=admin -e POSTGRES_DB=suelos -p 5432:5432 -d postgres
 
 ```
 ## ⚙️ Otros
